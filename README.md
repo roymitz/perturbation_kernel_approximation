@@ -7,7 +7,7 @@ Main functions:
 
 first_order_vs_second_order - Reproduces the plots of Section 7.1
 
-main_exapmle - Reproduces the plots of Section 7.2
+main_example - Reproduces the plots of Section 7.2
 
 update_pert - Performs the first order perturbation update of Section 3
 
