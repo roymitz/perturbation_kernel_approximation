@@ -13,7 +13,7 @@ simple_example.m - Performs a simple example demonstarting the use of update_per
 
 first_order_vs_second_order.m - Reproduces the plots of Section 7.1
 
-main_example.m - Reproduces the plots of Section 7.2
+sparse_example.m - Reproduces the plots of Section 7.2
 
 
 
