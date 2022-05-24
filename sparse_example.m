@@ -67,7 +67,6 @@ for experiment = 1:n_experiments
         
         % generate Kernels until their Hoyer score falls in the bin, to
         % cover as much hoyer scores between 0 and 1
-        tic;
         bin_start = 0.2 * mod(i,5);
         bin_end = bin_start + 0.2;
         sigma = rand(1) * 10;
@@ -80,7 +79,6 @@ for experiment = 1:n_experiments
             the_hs = hoyer_score(K);
             idx = idx + 1;
         end
-        toc;
 
         hs(1, experiment, i) = the_hs;
         hs(2, experiment, i) = the_hs;
