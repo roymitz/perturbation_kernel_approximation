@@ -1,4 +1,4 @@
-# perturbation_out_of_sample_extension
+# perturbation_kernel_approximation
 
 The code in this repository reproduces the exapmles in "A Perturbation Based Kernel Approximation Framework" by Mitz and Shkolnisky
 
