@@ -1,17 +1,20 @@
 # perturbation_out_of_sample_extension
 
-The code in this repository reproduces the exapmles in "A Perturbation Based Out-of-Sample Extension Framework
-for Data-Dependent Kernels"
+The code in this repository reproduces the exapmles in "A Perturbation Based Kernel Approximation Framework" by Mitz and Shkolnisky
+
 
 Main functions:
 
-first_order_vs_second_order - Reproduces the plots of Section 7.1
+update_pert.m - Performs the first order perturbation update of Section 3
 
-main_example - Reproduces the plots of Section 7.2
+update_pert_second_order.m - Performs the second order perturbation update of Section 3
 
-update_pert - Performs the first order perturbation update of Section 3
+simple_example.m - Performs a simple example demonstarting the use of update_pert.m and update_pert_second_order.m to approximate a given kernel
 
-update_pert_second_order - Performs the second order perturbation update of Section 3
+first_order_vs_second_order.m - Reproduces the plots of Section 7.1
+
+main_example.m - Reproduces the plots of Section 7.2
+
 
 
 Datasets:
