@@ -48,10 +48,10 @@ for i = 1:size(e_norm,2)
     
     [Qreal,Dreal] = eigs(A_, m);
 
-    [Q1, D1] = upadte_pert(Q0, D0, E_, 0);
-    [Q2, D2] = upadte_pert_second_order(Q0, D0, A, E_, 0);
-    [Q1_mu, D1_mu] = upadte_pert(Q0, D0, E_, mu);
-    [Q2_mu, D2_mu] = upadte_pert_second_order(Q0, D0, A, E_, mu);
+    [Q1, D1] = update_pert(Q0, D0, E_, 0);
+    [Q2, D2] = update_pert_second_order(Q0, D0, A, E_, 0);
+    [Q1_mu, D1_mu] = update_pert(Q0, D0, E_, mu);
+    [Q2_mu, D2_mu] = update_pert_second_order(Q0, D0, A, E_, mu);
     
     %err(i,1) = (subspace(Qreal,Q1));
     %err(i,2) = (subspace(Qreal,Q2));
