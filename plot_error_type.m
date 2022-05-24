@@ -6,7 +6,7 @@ function [handle] = plot_error_type(errors, nnzs, color, type)
         if type == 1
             plot(nnzs(i,:), errors(i,:), string(color));
         elseif type == 2
-            the_grid = linspace(0.1,0.9,size(errors,2));
+            the_grid = linspace(0.15,0.9,size(errors,2));
             for j = 1:size(errors,2)
                 x_experiment = nnzs(i,:);
                 y_experiment = errors(i,:);
