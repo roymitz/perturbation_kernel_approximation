@@ -7,7 +7,7 @@ function [] = plot_combined(errors, nnzs, title, file_name)
     figure('DefaultAxesFontSize',font_size)
     %set(groot,'defaultAxesTickLabelInterpreter','latex');  
     xlim([0,1]);
-    ylim([0,100])
+    ylim([0,1.5])
     xlabel('Hoyer score', 'fontsize', font_size);
     set(gca,'fontsize',font_size)
     err_string = ['error [', title, ']'];
