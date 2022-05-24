@@ -33,7 +33,7 @@ clear;
 
 % main parameters
 
-data_type = 'super';
+data_type = 'wine';
 error_type = 'reconstrucion';
 n = 500;
 n_eigs = 1;
