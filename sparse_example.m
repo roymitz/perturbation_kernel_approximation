@@ -78,8 +78,6 @@ for experiment = 1:n_experiments
             sigma = rand(1) * sigma_std;
             K = gaussian_kernel(kernel_type, X, sigma, to_sparse, to_gl);
             the_hs = hoyer_score(K);
-            the_hs
-            idx
             idx = idx + 1;
         end
         toc;
