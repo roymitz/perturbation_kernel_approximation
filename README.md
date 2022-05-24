@@ -1,6 +1,6 @@
 # perturbation_kernel_approximation
 
-The code in this repository reproduces the exapmles in "A Perturbation Based Kernel Approximation Framework" by Mitz and Shkolnisky
+The code in this repository reproduces the exapmles in "A Perturbation Based Kernel Approximation Framework" by Mitz and Shkolnisky (https://arxiv.org/abs/2009.02955)
 
 
 Main functions:
